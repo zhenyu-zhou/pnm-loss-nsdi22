@@ -13,5 +13,5 @@ Usage: Please download the compressed files and extract the file by:
 The data are in the format of a csv file, with the header as:
 "mac_id,fn_id,channel_id,timestamp,uncorrected_counter,corrected_counter,unerrored_counter,txpower,snr"
 , representing the anonymized numerical ID for MAC address, FN and channel (channel 1 has the lowest frequency and channel 3 has the highest), 
-followed by the metrics used in the paper. Each row after the header is a data entry consists of the values of corresponding fields. 
+the data collection time, followed by the metrics used in the paper. Each row after the header is a data entry consisting of the values of corresponding fields. 
 
