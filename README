@@ -1,4 +1,4 @@
-The public resources for the following NSDI'22 paper will be published in this repository:
+This repository publishes public resources for the NSDI'22 paper:
 
 @inproceedings{pnmloss2022,
   title={{Characterizing Physical-Layer Transmission Errors in Cable Broadband Networks}},
