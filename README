@@ -13,7 +13,7 @@ Usage: Please download the compressed files and extract the file by:
       `cat pnm_data_release.tar.gz.a* | tar xzvf -`
 
 The data are in the format of a csv file, with the header as:
-"mac_id,fn_id,channel_id,timestamp,uncorrected_counter,corrected_counter,unerrored_counter,txpower,snr"
-, representing the anonymized numerical ID for MAC address, anonymized FN and anonymized channel (channel 1 has the lowest frequency and channel 3 has the highest), 
+"mac_id,fn_id,channel_id,timestamp,uncorrected_counter,corrected_counter,unerrored_counter,txpower,snr", 
+which represents the anonymized numerical ID for MAC address, anonymized FN and anonymized channel (channel 1 has the lowest frequency and channel 3 has the highest), 
 the data collection time, followed by the metrics used in the paper. Each row after the header is a data entry consisting of the values of corresponding fields. 
 
